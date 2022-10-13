@@ -1,0 +1,135 @@
+
+#first{
+    background-image: url(img/IN-en-20221003-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-color: black;
+    /* position: relative;
+    top: -120px; */
+    height: 100vh;
+    width: 100%;
+    border-bottom: 10px solid gray;
+    position: relative;
+    z-index: 2;
+    
+    
+}
+.navbar{
+    z-index: 2;
+}
+
+#un{
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+ position: relative;
+ top: 110px;
+    
+}
+#sh{
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    right: 10px;
+    
+}
+#wa{
+    
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    right: 10px;
+    
+}
+#re{
+    
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    right: 10px;
+    
+}
+#button-addon2{
+    background-color: rgb(177, 10, 10);
+    
+}
+#pp{
+    position: relative;
+    top: 120px;
+    right: 10px;
+    
+}
+#gg{
+    background-color: black;
+}
+input{
+    height: 50px;
+}
+.divider{
+    height: 10px;
+    
+    width: 100%;
+    background-color: grey;
+}
+
+.b{
+    font-size: 53px;
+}
+
+.accordion-button{
+    background-color: gray;
+}
+.accordion-body{
+    background-color: grey;
+}
+.main1{
+   
+    
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(7, 7, 7),rgba(0, 01, 0, 0.428));
+    z-index:-2 ;
+    
+}
+
+
+@media(max-width:450px){
+    .b{
+        font-size: 30px;
+    }
+}
+@media(max-width:570px){
+    #re{
+        
+        font-size: 14px;
+    }
+}
+@media(max-width:570px){
+    #un{
+        
+        font-size: 40px;
+    }
+}
+@media(max-width:570px){
+    #sh{
+        
+        font-size: 40px;
+    }
+}
+@media(max-width:570px){
+    #cl{
+        
+        margin-top: 45px
+    }
+}
+
+
+
+
